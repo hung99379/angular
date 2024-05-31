@@ -9,7 +9,7 @@ import { CommonModule } from "@angular/common";
   selector: 'app-root',
   standalone: true,
   imports: [
-    FormsModule,
+    FormsModule,  
     HeaderComponent,
     FooterComponent,
     CommonModule,

@@ -17,12 +17,6 @@
           </li>
 
           <li>
-            <a class="text-white hover:text-gray-500/75" routerLink="/admin">
-              Shop
-            </a>
-          </li>
-
-          <li>
             <a class="text-white hover:text-gray-500/75" routerLink="/about">
               About
             </a>
@@ -31,6 +25,12 @@
           <li>
             <a class="text-white hover:text-gray-500/75" routerLink="/projects">
               Projects
+            </a>
+          </li>
+
+          <li *ngIf="userStateService.isAdmin()">
+            <a class="text-white hover:text-gray-500/75" routerLink="/admin">
+              Admin
             </a>
           </li>
         </ul>

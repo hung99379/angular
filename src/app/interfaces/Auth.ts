@@ -1,9 +1,11 @@
-export interface Auth{
+export interface User{
     id?: string | number;
     email: string;
-    password: string
+    password: string;
+    role: string;
 }
 
-export interface AuthResponse {
+export interface UserResponse {
     token: string;
+    user: User;
   }

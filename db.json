@@ -563,22 +563,44 @@
     {
       "email": "hung99379@gmail.com",
       "password": "$2a$10$Foqpqx2CvRsx/z/OA5ErAeBRNGW/oED9uBHZ8BphsPZzXl/epyidW",
+      "role": "admin",
       "id": 1
     },
     {
       "email": "hung993789@gmail.com",
       "password": "$2a$10$0MzpTG9t6uSkwxad0z5YKe3hHjOg7xiMCSx5C5PhW4y10D2ab5YJ6",
+      "role": "client",
       "id": 2
     },
     {
       "email": "huanhcph35218@fpt.edu.vn",
       "password": "$2a$10$.blzw0mS8p/yYXe1YQoVge1VVJtqtkASDRcsCkzNr0raqAeaonh7O",
+      "role": "client",
       "id": 3
     },
     {
       "email": "hung997777379@gmail.com",
       "password": "$2a$10$Rw8zFOg4ABKzQnFcgBucOudVws8CYAfuHdGGxMEpRHZbjH0uOonDO",
+      "role": "client",
       "id": 4
+    },
+    {
+      "email": "hung99999379@gmail.com",
+      "password": "$2a$10$EuN4XsswS818AXMOcJUOUuo8VdjcAsqSFUqq3QdglrQTFKvD6uTXW",
+      "role": "client",
+      "id": 5
+    },
+    {
+      "email": "hung9937779@gmail.com",
+      "password": "$2a$10$tiau24rdCrrn5oSV5DNIueppMXnytNaf7fSfZPiSWvtmwhNmqMEua",
+      "role": "client",
+      "id": 6
+    },
+    {
+      "email": "hung993799999@gmail.com",
+      "password": "$2a$10$IVD0iV1z9Gwyy/EsyT8p/eoLx87nw/nc67wenXlUR3BnSZpWa92vi",
+      "role": "admin",
+      "id": 7
     }
   ]
 }
