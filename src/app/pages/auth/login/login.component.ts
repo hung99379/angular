@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
-import {  User, UserResponse } from '../../../interfaces/Auth';
+import {  User } from '../../../interfaces/Auth';
 import { UserService } from '../../../services/auth.service';
 
 @Component({
@@ -45,7 +45,7 @@ export class LoginComponent implements OnInit {
       console.log(this.userForm.value);
       this.userService.login(this.userForm.value).subscribe({next: (data) =>{
         console.log('Register successfully!', data);
-        localStorage.setItem('token', data.token);
+        localStorage.setItem('accessToken', data.accessToken);
         localStorage.setItem('role', data.user.role);
         if (data.user.role === 'admin') {
           this.router.navigate(['/']); 

@@ -601,6 +601,12 @@
       "password": "$2a$10$IVD0iV1z9Gwyy/EsyT8p/eoLx87nw/nc67wenXlUR3BnSZpWa92vi",
       "role": "admin",
       "id": 7
+    },
+    {
+      "email": "hung9937999999@gmail.com",
+      "password": "$2a$10$FGlNxnvuG4lcxz9ZaNMv1uro2UdleGkOyTVXY6aez3tyi7JLygI36",
+      "role": "admin",
+      "id": 8
     }
   ]
 }

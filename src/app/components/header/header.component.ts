@@ -12,4 +12,10 @@ import { UserStateService } from '../../services/auth-state.service';
 })
 export class HeaderComponent {
   constructor(public userStateService: UserStateService) {}
+
+  logout(){
+    localStorage.removeItem('token');
+    localStorage.removeItem('accessToken');
+    localStorage.removeItem('role');
+  }
 }

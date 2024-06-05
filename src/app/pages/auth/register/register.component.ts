@@ -43,7 +43,7 @@ export class RegisterComponent implements OnInit {
   handleSubmit(){
     if (this.userForm.valid) {
       this.userService.register(this.userForm.value).subscribe({next: (data) =>{
-        localStorage.setItem('token', data.token);
+        localStorage.setItem('accessToken', data.accessToken);
         alert("Đăng nhập thành công!")
         this.router.navigate(['/login'])
       },
