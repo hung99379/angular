@@ -19,9 +19,7 @@ export class HomePageComponent implements OnInit {
       this.products = products;
     });
   }
-  
   addToCart(product: Product) {
     console.log(`Thêm vào giỏ hàng thành công: ${product.title}`);
-    
   }
 }

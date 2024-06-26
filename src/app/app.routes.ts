@@ -1,5 +1,4 @@
 import { HomePageComponent } from './pages/home-page/home-page.component';
-import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
 import { Routes } from '@angular/router';
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
@@ -23,10 +22,6 @@ export const routes: Routes = [
             {
                 path: 'home', 
                 redirectTo: '/'
-            },
-            {
-                path: 'about', 
-                component: AboutPageComponent
             },
             {
                 path: 'details/:id',
